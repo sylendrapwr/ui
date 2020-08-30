@@ -1,0 +1,95 @@
+.sidebar{
+  position: absolute !important;
+  top: 0;
+  min-height: 100vh;
+  background-color: #E0E3F2;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  display: block;
+  z-index: 1050;
+}
+
+.sidebarButton {
+  padding: 1rem .5rem;
+
+}
+
+.closeBtn {
+  color: #163259;
+}
+
+.transparentContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+.modalWhite {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fefefe;
+}
+
+.menuTextContainer {
+  width: 60%;
+  padding: 0px 2.5vh;
+}
+
+.iconMenuContainer {
+  width: 40%;
+}
+.iconMenuContainerActive {
+  width: 40%;
+  text-align: right;
+}
+
+
+.menuTextContainer p {
+  font-size: 3.5vh;
+}
+
+.iconNotActive {
+  height: 5.5vh !important;
+}
+
+.iconActive {
+  height: 9.5vh !important;
+  margin-left: 8.3vw;
+}
+
+.adjustHeight {
+  height: 5vh !important;
+}
+
+.activeMenuText {
+  font-size: 4.5vh !important;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+  padding-top: 1vh;
+  padding: 2vh 0px;
+}
+
+

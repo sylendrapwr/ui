@@ -1,0 +1,41 @@
+.modalBottomContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1050;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  outline: 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.modalBottomContent {
+  position: absolute !important;
+  bottom: 0;
+  height: 95vh;
+  background-color: #E0E3F2;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  display: block;
+  min-width: 100vw;
+}
+
+.modalBackDrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: .5;
+}
+
+.buttonMinimize {
+  width: 10vw;
+  border-radius: 10px;
+  height: 2vh;
+  background-color: #163259;
+}

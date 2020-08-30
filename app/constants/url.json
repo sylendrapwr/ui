@@ -1,0 +1,5 @@
+{
+  "DEV_URL": "http://apidev.sylendra.com",
+  "LOCAL_URL": "http://127.0.0.1:5000",
+  "PRODUCTION_URL": "http://apidev.sylendra.com"
+}

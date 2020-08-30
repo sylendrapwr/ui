@@ -1,0 +1,70 @@
+.container {
+  height: 100vh;
+  position: relative;
+}
+
+.verticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 40vh;
+  left: 50vw;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.imageLogo {
+  width: 20vw;
+  margin-bottom: 30px;
+}
+
+.loginTitle {
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Comfortaa', cursive; ;
+  color: #333;
+}
+
+.loginButton {
+  margin: 0;
+  position: absolute;
+  top: 80vh;
+  left: 50vw;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.buttonLogin {
+  width: 30vw;
+  text-align: left;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  background-image: linear-gradient(to right, #235BA6 , #1E8BFF);
+
+}
+
+.textArea {
+  max-width: 40%;
+  margin: auto;
+}
+
+.submitLoginButton {
+  width: 30vw;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-top: 1vh;
+  font-size: 2vw;
+}
+
+.loginText {
+  font-size: 2vw;
+  color: white;
+}
+.arrowIcon {
+  padding: .5vh;
+}

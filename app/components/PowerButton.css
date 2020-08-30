@@ -1,0 +1,38 @@
+.buttonContainer {
+  height: 15vh;
+  width: 15vh;
+  background-color: #163259;
+  border-radius: 7.5vh;
+  padding: 0vh;
+}
+
+.insideButton {
+  background-color: #163259;
+  height: 13vh;
+  width: 13vh;
+  margin: auto;
+  border-radius: 6.5vh;
+  padding: 1vh;
+
+}
+
+.insideButton div {
+  background-color: #163259;
+  height: 11vh;
+  width: 11vh;
+  border-radius: 6vh;
+  margin: auto;
+  padding: 1.5vh;
+}
+
+.activeButton {
+  background-image: #163259;
+}
+
+.activeIcon {
+  color: #00FF00	;
+}
+
+.inactiveIcon {
+  color: red;
+}

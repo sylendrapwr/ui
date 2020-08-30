@@ -1,0 +1,19 @@
+.batteryContainer {
+  height: 7vw;
+  width: 3vw;
+  border: 2px solid #163259;
+  margin: auto;
+}
+
+.battery {
+  width: 14%;
+}
+
+.smallBox {
+  height: .5vw;
+  width: 1vw;
+  background-color: #163259;
+  margin: auto !important;
+}
+
+

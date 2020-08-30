@@ -1,0 +1,52 @@
+.round {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 15vh;
+  padding: 3vh;
+  background-color: #E0E3F2;
+   -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 15px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 15px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 15px;
+}
+
+.titleText {
+  font-size: 4vh;
+  color: #163259;
+  margin-bottom: 2vh;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive; ;
+}
+
+.round div {
+  background-color: #FEFEFE;
+  width: 20vh;
+  height: 20vh;
+  margin: auto;
+  border-radius: 10vh;
+  font-size: 3.5vh;
+  padding: 3vh 1vh;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Comfortaa', cursive; ;
+  color: #163259;
+}
+
+.round div div {
+  z-index: 1;
+  height: 14vh;
+  width: 14vh;
+  border-radius: 7vh;
+  font-size: 10px;
+  background-color: #E0E3F2;
+}
+
+
+.shadowRound {
+  -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+  -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
+
+
+
+

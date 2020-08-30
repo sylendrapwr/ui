@@ -1,0 +1,75 @@
+.navbar {
+  font-size: 10px;
+}
+
+.rightNavbar {
+  width: 30%;
+  min-height: 100vh;
+}
+
+.leftNavbar {
+  width: 60%;
+}
+
+.hamburgerColor {
+  color: #163259;
+}
+
+.mainContainer {
+  width: 100%;
+  padding: 1rem;
+  position: relative;
+  min-height: 100vh;
+}
+
+.verticalCenter {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.rowContainer {
+  width: 90%;
+  margin: auto;
+}
+
+.userTextStyles {
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+.userMenuContainer {
+    margin-right: 1rem;
+    width: 20vw;
+    background-color: #E0E3F2;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.logoutButton {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  background-image: linear-gradient(to right, #235BA6 , #1E8BFF);
+  font-family: 'Comfortaa', cursive;
+}
+
+.userIcon {
+  height: 60px;
+  width: 60px;
+}
+
+.userDetail {
+  font-family: 'Comfortaa', cursive;
+  font-size: medium;
+}

@@ -1,0 +1,43 @@
+.buttonContainer {
+  width: 17vh;
+  height: 7.5vh;
+  background-color: #163259;
+  border-radius: 5vh;
+  padding: .5vh .5vh;
+}
+
+.insideBtnContainer {
+  width: 15.5vh;
+  height: 6vh;
+  background-color: #163259  ;
+  border-radius: 4vh;
+  padding: .3vh;
+}
+
+.circle {
+  height: 5.25vh;
+  width: 5.25vh;
+  background-color: #fff;
+  border-radius: 2.625vh;
+  z-index: 1500;
+  position: relative;
+}
+
+.textStyle {
+  font-size: 2.5vh;
+  color: #fff;
+  margin: 0 !important;
+  font-weight: bold;
+}
+
+.textContainer {
+  padding: 1vh 0vh;
+}
+
+.leftRow {
+  width: 40%;
+}
+
+.activeColor {
+  background-color: #163259  ;
+}

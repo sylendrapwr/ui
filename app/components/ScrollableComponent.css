@@ -1,0 +1,33 @@
+
+
+.scrollContent {
+  background-color: #fefefe !important;
+  width: 80%;
+  margin-bottom: 4vh !important;
+  padding: 1vh;
+  margin: auto;
+  border-radius: 1vh;
+  -webkit-box-shadow: rgba(0,0,0,0.3) 0px 0 10px;
+  -moz-box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+  box-shadow: rgba(0,0,0,0.3) 0 0 10px;
+}
+
+.scrollContainer {
+  overflow: hidden;
+  height: 60vh;
+}
+
+.title {
+  font-size: 3vh;
+  color: #163259;
+  text-align: center;
+  margin-bottom: 0;
+
+}
+
+.subtitle {
+  font-size: 5vh;
+  color: #163259;
+  text-align: center;
+  margin-bottom: 0;
+}

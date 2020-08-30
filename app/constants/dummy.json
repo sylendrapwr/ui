@@ -1,0 +1,49 @@
+{
+    "consumption": 0,
+    "production": 0,
+    "storage": 0,
+    "e-consumption": {
+        "voltage": 0,
+        "current": 0,
+        "power": 0,
+        "pf": 0,
+        "quality": 0,
+        "freq": 0,
+        "temp": 0
+    },
+    "e-production": {
+        "voltage": 0,
+        "current": 0,
+        "power": 0,
+        "temp":0
+    },
+    "e-harvester": [
+      {
+        "cap": 0,
+        "current": 0,
+        "cycle": 0,
+        "data": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "id": 0,
+        "status": 0,
+        "temp1": 0,
+        "temp2": 0
+      }
+    ],
+    "inverter": 0,
+    "converter": 0
+}
