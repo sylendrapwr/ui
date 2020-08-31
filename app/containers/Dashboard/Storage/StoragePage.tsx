@@ -44,9 +44,10 @@ const StoragePage = props => {
 
   function scrollComponentValue() {
     return [
-      { name: 'Capacity', value: useData && `${useData.cap}Ah` },
+      { name: 'Capacity', value: useData && `${useData.cap} Ah` },
+      { name: 'Current', value: useData && `${useData.current} A` },
+      { name: 'Voltage', value: `${average(useData && useData.data)} V` },
       { name: 'Cycle', value: useData && useData.cycle },
-      { name: 'Voltage', value: `${average(useData && useData.data)}V` },
       { name: 'Temperature', value: <>{useData && useData.temp1} &deg;C </> }
     ];
   }
