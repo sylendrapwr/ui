@@ -9,19 +9,31 @@ function ScrollableComponent(props) {
     if (x === 'voltage') {
       return {
         name: 'Voltage',
-        suffix: 'V'
+        suffix: ' V'
       };
     }
     if (x === 'current') {
       return {
         name: 'Current',
-        suffix: 'A'
+        suffix: ' A'
+      };
+    }
+    if (x === 'current1') {
+      return {
+        name: 'Current PV 1',
+        suffix: ' A'
+      };
+    }
+    if (x === 'current2') {
+      return {
+        name: 'Current PV 2',
+        suffix: ' A'
       };
     }
     if (x === 'frequency' || x === 'freq') {
       return {
         name: 'Frequency',
-        suffix: 'Hz'
+        suffix: ' Hz'
       };
     }
     if (x === 'quality') {
