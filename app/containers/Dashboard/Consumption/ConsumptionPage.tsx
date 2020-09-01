@@ -55,7 +55,7 @@ const ConsumptionPage = props => {
   function getCardData() {
     const consumption = useData && useData['e-consumption'];
     const getKey = Object.getOwnPropertyNames(consumption);
-    const notInclude = ['pf', 'temp'];
+    const notInclude = ['pf'];
     notInclude.forEach(x => getKey.splice(getKey.indexOf(x), 1));
     const scrollData = [];
     for (let i = 0; i < getKey.length; i++) {
