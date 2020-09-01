@@ -44,7 +44,7 @@ const ConsumptionPage = props => {
         return 'Very Good';
       }
       if (value === 0) {
-        return 'Off';
+        return 'Off ';
       }
     } else {
       return value;
