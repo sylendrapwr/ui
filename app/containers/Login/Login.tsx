@@ -22,7 +22,7 @@ function Login(props) {
   const handleSerialNumber = () => {
     const { value } = Serial.SERIAL;
     var fs = require('fs');
-    fs.readFile('sn.txt', 'utf8', function(err, data) {
+    fs.readFile('.sn.txt', 'utf8', function(err, data) {
       if (err) {
         console.log(err);
       }

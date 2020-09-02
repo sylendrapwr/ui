@@ -108,7 +108,7 @@ const checkTokenIsValid = token => {
         return resolve(response);
       })
       .catch(e => {
-        return reject(e);
+        return console.log("Cannot connect to internet"); // reject(e);
       });
   });
 };
@@ -131,7 +131,7 @@ const logoutHandler = token => {
         reject();
       })
       .catch(e => {
-        return reject(e);
+        return console.log(e.message); // reject(e);
       });
   });
 };
@@ -156,7 +156,7 @@ const relayHandler = (token, data) => {
         return reject();
       })
       .catch(e => {
-        return reject(e);
+        return console.log(e.message);// reject(e);
       });
   });
 };
