@@ -49,8 +49,6 @@ function Sidebar(props) {
 
   const sidebarMenu = [
     { name: 'Setting', icon: SettingImage, activeIcon: SettingActive },
-    { name: 'Account', icon: User, activeIcon: UserActive },
-    { name: 'Help', icon: HelpImage, activeIcon: HelpActive }
   ];
 
   const handleOnClose = () => {
@@ -68,12 +66,12 @@ function Sidebar(props) {
         />
       );
     }
-    if (activeMenu === 1) {
+    /*if (activeMenu === 1) {
       return <Account detailDevice={detailDevice} />;
     }
     if (activeMenu === 2) {
       return <Help />;
-    }
+    }*/
   };
 
   const handleIconStyles = index => {

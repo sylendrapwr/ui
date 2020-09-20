@@ -227,6 +227,12 @@ function Dashboard(props) {
     <div>
       <Navbar color="light" light expand="sm">
         <Collapse navbar>
+        <Nav className="mr-auto pl-2" navbar>
+            <i
+              onClick={() => setOpenLeftBar(!openLeftBar)}
+              className={hamburgerStyles}
+            />
+          </Nav>
           <Nav className="ml-auto" navbar>
             <p className={detailUserStyles}>
               Hi, {(detailDevice && detailDevice.name) || ''}!
@@ -238,6 +244,19 @@ function Dashboard(props) {
           </Nav>
         </Collapse>
       </Navbar>
+
+      <Sidebar
+        onClose={() => setOpenLeftBar(!openLeftBar)}
+        openLeftBar={openLeftBar}
+        token={token}
+        onLogout={onLogout}
+        detailDevice={detailDevice}
+        powerValue={(dashboardData && dashboardData.inverter) || dummy.inverter}
+        converter={
+          (dashboardData && dashboardData.converter) || dummy.converter
+        }
+        setDashboardData={(data) => setDashboardData(data)}
+      />
       <ModalBottom hideModal={hideModal} isVisible={modalVisible}>
         {handleActiveModalComponent()}
       </ModalBottom>

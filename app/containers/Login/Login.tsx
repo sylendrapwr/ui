@@ -36,6 +36,7 @@ function Login(props) {
 
   const handleLogin = () => {
     const { history, saveSerial } = props;
+    return history.push(routes.DASHBOARD);
     handleLoginApi(serialNumber).then(res => {
       saveSerial(res.data);
       return history.push(routes.DASHBOARD);

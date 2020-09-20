@@ -12,16 +12,8 @@ function Setting(props) {
   const containerLeft2 = `${styles.leftContainer2} col-6 mt-4`;
 
   function handleButtonPower() {
-    let newPower;
-    if (powerValue === 0) {
-      newPower = 1;
-    }
-    if (powerValue === 1) {
-      newPower = 0;
-    }
     const data = {
-      inv: newPower,
-      cnv: converter
+      turnoff: 1
     };
     handleButtonSetting(data)
       .then(response => {
@@ -57,23 +49,12 @@ function Setting(props) {
     <div className="container mt-4">
       <div className="row">
         <div className={containerLeft}>
-          <h3>Power</h3>
+          <h3>Turn off</h3>
         </div>
         <div className="col-6 text-right">
           <PowerButton
             onPress={handleButtonPower}
             isActive={powerValue === 1}
-          />
-        </div>
-        <div className={containerLeft2}>
-          <h3>Charging Source</h3>
-        </div>
-        <div className="col-6 mt-4 text-right">
-          <SlideButton
-            isActive={converter === 1}
-            onPress={() => handleButtonConverter()}
-            activeText="PV"
-            offText="Grid"
           />
         </div>
       </div>
